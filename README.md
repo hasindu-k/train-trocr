@@ -1,6 +1,6 @@
 # train-trocr
 
-Training utilities for fine-tuning a Sinhala TrOCR model on handwritten samples.
+End-to-end training workflow for fine-tuning a Sinhala TrOCR model on handwritten OCR data, including dataset download, training, metric logging, and Hugging Face Hub upload.
 
 ## Current implementation
 
@@ -62,4 +62,3 @@ CSV must include these columns:
 ```bash
 python train_handwritten_model.py
 ```
-
